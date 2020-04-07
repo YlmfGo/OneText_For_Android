@@ -8,7 +8,6 @@
     <string name="feed_text">訂閲源</string>
     <string name="default_text">默認</string>
     <string name="feed_refresh_text">源刷新時間：</string>
-    <string name="feed_url_text">清除以恢復默認源</string>
     <string name="font_custom_text">選擇一個自定義字體</string>
     <string name="font_system_text">恢復默認字體</string>
     <string name="minute">分</string>
@@ -17,15 +16,15 @@
     <string name="onetext_text_size_text">一言大小：</string>
     <string name="onetext_time_size_text">時間文字大小：</string>
     <string name="record_time">記錄於</string>
-    <string name="request_permissions_button">同意</string>
-    <string name="request_permissions_text">需要一些權限</string>
+    <string name="request_permissions_agree_button">同意</string>
+    <string name="request_permissions_text">需要儲存權限</string>
     <string name="save_button">保存</string>
     <string name="save_fail">失敗</string>
     <string name="save_succeed">成功，保存為</string>
     <string name="save_text">保存圖片</string>
     <string name="setting_succeed_text">成功，下次啟動生效</string>
     <string name="title_activity_setting">設置</string>
-    <string name="widget_dark">暗色壁紙</string>
+    <string name="widget_dark">暗色</string>
     <string name="widget_disenable_text">小部件沒有啟用</string>
     <string name="widget_enable_text">小部件已啟用</string>
     <string name="widget_text">小部件</string>
@@ -35,11 +34,11 @@
 \n\n
 在開發過程中，我們特別感謝：
 \n
-[lz差不多是條鹹魚了](https://github.com/lz233) [小萌新x](https://github.com/xbl233) [亢龍有悔](https://github.com/kanglyh)
+[lz差不多是條鹹魚了](https://github.com/lz233) [小萌新x](https://github.com/xbl233) [亢龍有悔](https://github.com/kanglyh) [貓耳逆變器](https://github.com/NekoInverter)
 \n\n
 本項目的開發離不開以下項目：
 \n
-[Markwon](https://github.com/noties/Markwon) [MicrosoftAppCenter](https://appcenter.ms) [IndicatorSeekBar](https://github.com/warkiz/IndicatorSeekBar) [Calligraphy](https://github.com/InflationX/Calligraphy) [ViewPump](https://github.com/InflationX/ViewPump) [EasyPermissions](https://github.com/googlesamples/easypermissions) [ProguardElderDictionary](https://github.com/heruoxin/proguard-elder-dictionary) [AndroidOpenCC](https://github.com/qichuan/android-opencc) [OpenCCPython](https://github.com/yichen0831/opencc-python)
+[AndroidOpenSourceProject](https://source.android.com/) [MaterialDesignIcons](https://github.com/google/material-design-icons) [MicrosoftAppCenter](https://appcenter.ms) [Markwon](https://github.com/noties/Markwon) [IndicatorSeekBar](https://github.com/warkiz/IndicatorSeekBar) [Calligraphy](https://github.com/InflationX/Calligraphy) [ViewPump](https://github.com/InflationX/ViewPump) [EasyPermissions](https://github.com/googlesamples/easypermissions) [ProguardElderDictionary](https://github.com/heruoxin/proguard-elder-dictionary) [AndroidOpenCC](https://github.com/qichuan/android-opencc) [OpenCCPython](https://github.com/yichen0831/opencc-python) [NiceImageView](https://github.com/SheHuan/NiceImageView) [EasyBarrage](https://github.com/shiweibsw/EasyBarrage)
 \n\n
 本應用的主頁：[點我](https://github.com/lz233/OneText_For_Android)
 \n\n
@@ -51,14 +50,10 @@
     </string>
     <string name="succeed">成功</string>
     <string name="widget_can_download">允許小部件更新源</string>
-    <string name="feed_url_no_changed_text">源沒有更改</string>
     <string name="hour">時</string>
     <string name="widget_refresh_text">小部件刷新時間：</string>
     <string name="interface_md2">Material Design 2 風格</string>
     <string name="interface_text">界面</string>
-    <string name="feed_local_choose_text">選擇</string>
-    <string name="feed_type_local_text">本地JSON</string>
-    <string name="feed_type_remote_text">遠端JSON</string>
     <string name="refresh_onetext_button">刷新</string>
     <string name="refresh_onetext_text">來個新句子</string>
     <string name="seal_button_isoff">顯示</string>
@@ -79,5 +74,41 @@
     <string name="share_text">分享</string>
     <string name="behavior_text">行為</string>
     <string name="chinese_type">中文類型</string>
-    <string name="widget_center">小部件居中</string>
+    <string name="widget_center">居中</string>
+    <string name="feed_edit_text">編輯</string>
+    <string name="feed_delete_text">刪除</string>
+    <string name="setfeed_name_text">名稱</string>
+    <string name="setfeed_type_text">類型 [remote/local]</string>
+    <string name="setfeed_url_text">鏈接</string>
+    <string name="setfeed_path_text">路徑 [長按選擇文件]</string>
+    <string name="feed_cannot_delete_text">不允許刪除最後一個源。</string>
+    <string name="widget_shadow">陰影</string>
+    <string name="onetext_refresh_faild_text">更新失敗，請檢查網絡。</string>
+    <string name="onetext_refresh_faild_button">重試</string>
+    <string name="oauth_login_text">通過 GitHub 登錄</string>
+    <string name="oauth_failed_text">失敗，請返回並重試。</string>
+    <string name="oauth_logout_text">確認退出？</string>
+    <string name="oauth_logout_button">確認</string>
+    <string name="oauth_hide_text">隱藏 Oauth 認證</string>
+    <string name="delete_succeed">刪除成功</string>
+    <string name="onetext_init_faild_text">初始化失敗，請檢查網絡。</string>
+    <string name="onetext_init_faild_button">重試</string>
+    <string name="feed_auto_update_text">自動更新</string>
+    <string name="title_activity_welcome">歡迎！</string>
+    <string name="welcome_start">開始</string>
+    <string name="request_permissions_storage_detail_text">儲存權限用來保存一言圖片，以便於分享。\n這些圖片保存在 %s。</string>
+    <string name="request_permissions_disagree_button">不同意</string>
+    <string name="request_permissions_next_time_text">您也可以稍後同意這些權限。</string>
+    <string name="welcome_widget_text">小部件</string>
+    <string name="welcome_widget_button">下一個</string>
+    <string name="welcome_notification_text">通知</string>
+    <string name="welcome_notification_button">完成</string>
+    <string name="delete_failed">刪除失敗</string>
+    <string name="welcome_demo_text">死並非生的對立面，而作為生的一部分永存。</string>
+    <string name="welcome_demo_by">—— 村上春樹</string>
+    <string name="font_start_download">正在下載，請查閲通知欄。</string>
+    <string name="oauth_login_detail">賬户認證當前沒有實際作用，僅僅為了界面美觀</string>
+    <string name="oauth_cancel_button">取消</string>
+    <string name="oauth_continue_button">繼續</string>
+    <string name="copied">已複製</string>
 </resources>
